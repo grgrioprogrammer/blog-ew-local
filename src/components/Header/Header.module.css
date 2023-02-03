@@ -1,0 +1,44 @@
+.main_container {
+    background-color: white;
+    height: 80px;
+    display: flex;
+}
+
+.img_and_title_container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img_and_title_container img {
+    width: 20%;
+    margin-left: 50px;
+}
+
+.roots_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.roots_container p {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 60px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.roots_container button {
+    margin-right: 175px;
+}
+
+.roots_container button {
+    width: 118px;
+    height: 44px;
+    background: #FD7100;
+    border-radius: 24px;
+    border-color: transparent;
+    color: white;
+}

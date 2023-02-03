@@ -1,0 +1,33 @@
+.main_ourblog_container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourblog {
+    display: flex;
+    align-items: center;
+}
+
+.ourblog h1 {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 132px;
+    font-family: 'Poppins', sans-serif;
+    color: #027BFF;
+    margin-right: 35px;
+}
+
+.ourblog img {
+    height: 125px;
+    width: 125px;
+    margin-right: 25px;
+}
+
+.vertical_red_div {
+    height: 82px;
+    width: 15px;
+    background-color: red;
+}
