@@ -1,0 +1,120 @@
+@media(max-width:560px) {}
+.pdp_post_main_container {
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:560px) {
+    .post_pdp img{
+        width: 90% !important;
+        height: 280px !important;
+    }
+}
+
+.post_pdp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.post_pdp img {
+    width: 60%;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.post_data_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+@media(max-width:560px) {
+    .post_data_container {
+        width: 90%;
+    }
+} 
+
+.post_data_container h1 {
+    font-weight: 600;
+    line-height: 72px;
+    font-size: 48px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media(max-width:560px) {
+    .post_data_container h1 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: start;
+    }
+}
+
+.post_data_container p {
+    line-height: 32px;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+@media(max-width:560px) {
+    .post_data_container p {
+       text-align: start;
+       margin: 0px;
+    }
+}
+
+.span_div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #027BFF;
+    margin: 15px 0px;
+}
+
+.author_quote_container {
+    margin-top: 40px;
+    background-color: #EEEDED;
+    width: 100%;
+    margin-bottom: 200px;
+    border-radius: 16px;
+}
+
+.autor_quote { 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: justify;
+    padding: 40px;
+}
+
+@media(max-width:560px) {
+    .autor_quote {
+        font-size: 18px;
+        padding: 20px;
+        text-align: justify;
+    }
+}
+
+.author {
+    text-align: end;
+    margin-right: 20px !important;
+    font-weight: 600;
+}
+
+@media(max-width:560px) {
+    .author {
+        text-align: end !important;
+    }
+}
+@media(max-width:560px) {}
+
+.pen_icon {
+    margin-right: 3px;
+    height: 14px;
+    color: #fd7100;
+}

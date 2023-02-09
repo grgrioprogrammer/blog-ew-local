@@ -4,6 +4,8 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Header } from '@/components/Header/Header'
 import { OurBlog } from '@/components/OurBlog/OurBlog'
+import { PDPPost } from '@/components/PDPPost/PDPPost'
+import { CardContainer } from '@/components/CardContainer/CardContainer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +19,8 @@ export default function Home() {
       </Head>
         <Header />
         <OurBlog />
+        {/* <CardContainer/> */}
+        <PDPPost />
     </>
   )
 }
